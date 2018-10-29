@@ -21,7 +21,7 @@ function displayEmbededGame (){
     gameControl.text('Challenge the software?');
 
     showGame=true;
-      setTimeout(()=>{$('.rightSide').css({'height':'300px'});embededGame.css({'z-index':'-1','transform':'translate(0%,-100%)'})},1000);
+      setTimeout(()=>{$('.rightSide').css({'height':'350px'});embededGame.css({'z-index':'-1','transform':'translate(0%,-100%)'})},1000);
       
     }
   }

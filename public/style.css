@@ -242,13 +242,13 @@ footer{
 }
 nav{
   background-color: rgba(250,250,250, 0.5);; 
-  
  position:fixed;
  width:100%;
  margin-left:-18px;
  border-bottom: 1px solid black;
   font-family:'Allerta Stencil';
   color:black;
+  z-index:1;
 }
 nav  a{
   color:black;

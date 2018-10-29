@@ -367,7 +367,9 @@ height:auto;
 #aboutMe h1{
  font-size:24px;
   }
-
+.rightSide{
+ height:350px;
+}
   
 .profilePic{
 /* width:250px; */

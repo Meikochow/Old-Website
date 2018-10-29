@@ -62,7 +62,7 @@ font-family:"Didact gothic";
 font-size:22px;
 outline:none;
 background:rgba(200, 200, 200, 0.8);
-margin:5px;
+margin:5px auto 10px auto;
 }
 
 #gameControl:hover{

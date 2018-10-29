@@ -34,7 +34,7 @@ body{
 .rightSide{
 /* border: 2px solid red; */
   width:66%;
-  height:320px;
+  height:350px;
   margin-top:-20px;
  transition: 1s;
 -webkit-transition: 1s; /* Safari */ 

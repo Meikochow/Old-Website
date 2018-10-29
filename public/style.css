@@ -15,8 +15,8 @@ body{
 }
 #aboutMe{
   padding-top:50px;
-  min-height:90vh;
-  height:auto;
+ min-height:90vh;
+height:auto;
  text-align:center;
    background:rgba(200, 200, 200, 0.8);
   margin-bottom:20px;
@@ -32,9 +32,9 @@ body{
   width:40%;
 }
 .rightSide{
-border: 2px solid red;
+/* border: 2px solid red; */
   width:66%;
-  height:380px;
+  height:350px;
   margin-top:-20px;
  transition: 1s;
 -webkit-transition: 1s; /* Safari */ 
@@ -57,7 +57,7 @@ transition: 0.5s;
 #gameControl{
 border:1px solid black;
 height:40px;
-width:320px;
+width:270px;
 font-family:"Didact gothic";
 font-size:22px;
 outline:none;
@@ -367,10 +367,10 @@ height:auto;
 #aboutMe h1{
  font-size:24px;
   }
-.rightSide{
- height:350px;
-}
-  
+
+  .rightSide{
+  height:350px;
+  }
 .profilePic{
 /* width:250px; */
 object-fit: cover;

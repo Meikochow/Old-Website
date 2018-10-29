@@ -32,7 +32,7 @@ body{
   width:40%;
 }
 .rightSide{
-/* border: 2px solid red; */
+border: 2px solid red;
   width:66%;
   height:380px;
   margin-top:-20px;
@@ -45,7 +45,7 @@ body{
 position:relative;
 /*  border:5px solid red; */
  width:320px;
-margin:5px;;
+margin:auto;
  z-index:-1;
 opacity:0;
 height:10px;

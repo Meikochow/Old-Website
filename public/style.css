@@ -45,7 +45,7 @@ body{
 position:relative;
 /*  border:5px solid red; */
  width:320px;
-margin:auto;
+margin:5px;;
  z-index:-1;
 opacity:0;
 height:10px;

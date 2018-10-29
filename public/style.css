@@ -1,0 +1,394 @@
+/* CSS files add styling rules to your content */
+
+body{
+  margin-top:0px;
+  padding:10px;
+  padding-top:0px;
+  background-image:url("https://s20.postimg.cc/3myy0x6ot/first_background_4.png");
+  background-size:150px;
+/*     background-repeat: no-repeat; */
+  background-attachment: fixed;
+}
+#container{
+  width:100%;
+   min-width:280px;
+}
+#aboutMe{
+  padding-top:50px;
+  min-height:90vh;
+  height:auto;
+ text-align:center;
+   background:rgba(200, 200, 200, 0.8);
+  margin-bottom:16px;
+  font-family:'Varela';
+ display:flex;
+ display: -webkit-flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.leftSide{
+/* border:2px solid blue; */
+  width:40%;
+}
+.rightSide{
+/* border: 2px solid red; */
+  width:66%;
+  height:300px;
+  margin-top:-20px;
+ transition: 1s;
+-webkit-transition: 1s; /* Safari */ 
+-moz-transition: 1s;
+-o-transition: 1s;
+}
+#embededGame{
+position:relative;
+/*  border:5px solid red; */
+ width:320px;
+margin:auto;
+ z-index:-1;
+opacity:0;
+height:10px;
+transition: 0.5s;
+-webkit-transition: 0.5s; /* Safari */ 
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+}
+#gameControl{
+border:1px solid black;
+height:40px;
+width:320px;
+font-family:"Didact gothic";
+font-size:22px;
+outline:none;
+background:rgba(200, 200, 200, 0.8);
+margin:5px;
+}
+
+#gameControl:hover{
+color:white;
+background:black;
+box-shadow: 0px 0px 50px white;
+}
+.fa-free-code-camp,.fa-github-square,.fa-github-square,.fa-linkedin,.fa-google,.fa-codepen,.fa-twitter{
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+  margin:3px;
+}
+  .fa-free-code-camp:hover {
+  color: #339933;
+}
+
+.fa-github-square:hover{
+color:#333;
+}
+.fa-twitter:hover{
+color:#1DA1F2;
+}
+    .fa-linkedin:hover {
+  color: #007bb5;
+   }
+   .fa-google:hover {
+    color:#dd4b39 ;
+     }
+  .fa-codepen:hover{
+    color:rgb(204, 0, 204);
+  }
+
+.profilePic{
+  max-width:500px;
+  width:100%;
+  min-width:270px;
+  border-radius:5px;
+  margin:5px;
+  }
+
+#portfolioContainer{
+background:rgba(200, 200, 200,0.8);
+text-align:center;
+font-family:'Varela';
+}
+#tabControl{
+  width:100%;
+   display:grid;
+ grid-template-columns:9% 13% 14% 15% 16% 21% 12%;
+  grid-template-rows:100%; 
+}
+.tablink{
+ border:3px none grey;
+ height:auto;
+ min-height:40px;
+ outline:1px solid black;
+ background-color:#bebecb;
+ margin:2px;
+ padding-left:3px;
+}
+.fa-react{
+  color: #0098b3;
+}
+.fa-node{
+font-size:40px;
+color:#215732;
+}
+.fa-js{
+  color:#ffff00
+}
+.fa-gamepad{
+color:#ff944d;
+}
+
+#tabControl button:hover{
+box-shadow: 0px 0px 100px white;
+color:white;
+}
+#portfolio{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ margin-bottom:16px;
+ font-family:'Cuprum';
+}
+.projectThumbnail{
+  height:100px;
+  background-size:250px;
+}
+.projectsDescription{
+  height:90px;
+  margin:0px;
+  padding:5px;
+  vertical-align:middle;
+  color:black;
+  text-decoration:none;
+  background-color:rgba(255, 255, 255, 0.65);
+  font-size:17px;
+  font-weight:bold;
+  display:none;
+}
+.project{
+  border:1px solid black;
+  margin:3px;
+  border-radius:1%;
+  width:250px;
+  text-align:center;
+  align-items:center;
+  background:white;
+  background:#e6ffff;
+  transition-duration: 1s;
+-webkit-transition-duration: 1s; /* Safari 
+/*   transition: visibility 1s, opacity 0.5s linear; */
+}
+.project a{
+   text-decoration:none; 
+}
+.project:hover .projectsDescription{
+  display:block;
+}
+.project:hover a{
+  text-decoration:underline;
+}
+
+.projectName{
+height:36px;
+}
+#certifications{
+   display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-bottom:16px;
+   background-color:rgba(200,200,200, 0.8);
+     font-family:'Varela';
+  padding-bottom:10px; 
+}
+.certHeader{
+width:100%;
+text-align:center;
+}
+.cert{
+  border:1px solid black;
+  margin:3px;
+  border-radius:1%;
+  width:250px;
+  text-align:center;
+  align-items:center;
+  background:white;
+  font-size:18px;
+  display:inline-block;
+}
+.thumbNail{
+  width:250px;
+}
+
+#contactMe{
+  text-align:center;
+  height:auto;
+  background-color:rgba(200,200,200, 0.8);
+  padding:20px;
+  font-family:'Allerta Stencil';    
+}
+.fa{
+  text-decoration:none;
+  color:black;
+  margin:3px;
+}
+/* header{
+ font-size:30px; 
+} */
+footer{
+  margin-top:10px;
+  text-align:center;
+  font-size:20px;
+  background-color:rgba(0,0,0, 0.3);
+  color:white;
+}
+nav{
+  background-color: rgba(250,250,250, 0.5);; 
+  
+ position:fixed;
+ width:100%;
+ margin-left:-18px;
+ border-bottom: 1px solid black;
+  font-family:'Allerta Stencil';
+  color:black;
+}
+nav  a{
+  color:black;
+}
+nav .fa-bars{
+  display:none;
+ color:black;
+ margin:6px 10%;
+}
+nav .navWide {
+  display: block;
+}
+nav .navWide .wideDiv {
+  text-align: center;
+}
+nav .navWide .wideDiv a{
+  max-width:100px;
+  min-width:80px;
+  color:white;
+  outline:1px solid white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6em 18px;
+  text-align:center;
+/*   background:#b3b3b3; */
+  background:black;
+}
+nav .navWide .wideDiv a:hover{
+ background:#999999;
+color:black;
+font-weight:bold;
+  box-shadow: 0px 16px 50px black;
+ }
+ .navNarrow {
+ display:none;
+ }
+.navNarrow .narrowLinks {
+  display: none;
+}
+.navNarrow .narrowLinks a{
+	text-decoration: none;
+	display: block;
+/* 	float: center;
+	clear: center; */
+	padding: 0.5em 0.5em;
+  text-align:center;
+			}
+/* _______________________________________________________________ */
+@media screen and (max-width:800px){
+
+#aboutMe{
+  padding-top:50px;
+  min-height:90vh;
+  height:auto;
+ text-align:center;
+   background:rgba(200, 200, 200, 0.8);
+  margin-bottom:16px;
+  font-family:'Varela';
+ display:grid;
+}
+.leftSide{
+/* border:2px solid blue; */
+  width:100%;
+  max-width:280px;
+  margin:auto;
+}
+.rightSide{
+/* border: 2px solid red; */
+  width:100%;
+/*   height:auto; */
+}
+.fa-free-code-camp,.fa-github-square,.fa-github-square,.fa-linkedin,.fa-google,.fa-codepen,.fa-twitter{
+  font-size:40px;
+  }
+  .fa-html5{
+  font-size:15px;
+  }
+  .fa-css3{
+  font-size:15px;
+  }
+/*   .tablink{
+    font-size:12px;
+  } */
+}
+/* _______________________________________________________________ */
+@media screen and (max-width: 520px) {
+body{
+  margin-top:0px;
+  padding:4px;
+  padding-top:0px;
+}
+nav{
+  border:none;}
+nav .navNarrow {
+display:block;
+  }
+nav .navNarrow .narrowLinks {
+display: none;
+  }
+nav .navNarrow .narrowLinks a{
+  background:black;
+  outline:2px solid white;
+  color:white;
+  }
+nav .navNarrow .fa-bars{
+color:white;
+margin:6px 4%;
+display:block;
+ }
+nav .navWide {
+display: none;
+ }
+#aboutMe{
+height:auto;
+  }
+#aboutMe h1{
+ font-size:24px;
+  }
+
+  
+.profilePic{
+/* width:250px; */
+object-fit: cover;
+/* transform: scale(0.5, 0.1); */
+/* border-radius:50%; */
+  }
+  
+  #gameControl{
+  margin-bottom:10px;
+  }
+  .fa-node,.fa-gamepad{
+  font-size:20px;
+  }
+  #api, #responsive{
+  font-size:10px;
+  }
+/* .tablink{
+height:auto;
+padding:0px;
+font-size:8px;
+outline:1px solid black;
+} */
+}

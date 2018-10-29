@@ -1,0 +1,80 @@
+.text {
+/* border:1px solid blue; */
+  width: auto;
+ height: 50px;
+ text-align:center;
+font-size:48px;
+}
+.textToWord{
+/*   border:1px solid red; */
+ width:100%;;
+ height:50px;
+margin-top:0px;
+}
+
+.word {
+/*   border:1px solid orange; */
+ position: absolute;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0; 
+ right: 0;
+ width: 320px; 
+height:50px;
+ opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  /* APPS */
+/*   color: #8e44ad; */
+  font-family:"Allerta Stencil";
+ 
+}
+.green {
+    /* CODE */
+/*   color: #16a085; */ 
+  font-family:'Orbitron';
+}
+
+.midnight {
+    /* ALGORITHMS */
+/*   color: #2c3e50; */
+ font-family:"Allerta Stencil";
+
+}
+.pomegranate {
+    /* DESIGN */
+/*   color: #c0392b; */
+  font-family:"Architects Daughter";
+}
+.belize {
+
+    /* Games*/
+/*   color: #2980b9; */
+font-family:"Allerta Stencil";
+}
+
+
+
+

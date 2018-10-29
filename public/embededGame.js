@@ -5,7 +5,7 @@ function displayEmbededGame (){
     if(showGame){
       embededGame.css({'z-index':'1','transitionDuration':'1.5s','transform':'translate(0%,0%)'})
 //'display':'block'
-      $('.rightSide').css({'height':'870px'});
+      $('.rightSide').css({'height':'880px'});
       
       
     gameControl.text('Close Game');

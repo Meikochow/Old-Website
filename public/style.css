@@ -198,6 +198,7 @@ color:#1DA1F2;
  background:rgba(230, 247, 255, 0.6);
  margin-bottom:20px;
  font-family:'Allerta stencil';
+box-shadow:0px 0px 10px black;
 }
 #whoAmIGroup{
  display:flex;
@@ -215,7 +216,7 @@ border-radius:50% 50% 50%  50%;
 
 }
 .whoAmIDesc:hover{
-height:400px;
+height:410px;
 border-radius:200px 200px 30px 30px;
 padding:1px 10px 15px 10px;
   transition: 1s;
@@ -249,6 +250,7 @@ transform: translateY(0%);
  background:rgba(230, 247, 255, 0.6);
 text-align:center;
 font-family:'Varela';
+  box-shadow:0px 0px 10px black;
 }
 #tabControl{
  width:100%;
@@ -366,6 +368,7 @@ background-size:40px;
   background:rgba(230, 247, 255, 0.6);
   font-family:'Varela';
   padding-bottom:10px; 
+  box-shadow:0px 0px 10px black;
 }
 .certHeader{
 width:100%;
@@ -410,6 +413,7 @@ z-index:1;
   padding:20px;
   font-family:'cambria';   
   font-size:20px;
+  box-shadow:0px 0px 10px black;
 }
 .fa{
   text-decoration:none;
@@ -422,6 +426,7 @@ footer{
   font-size:20px;
  background:rgba(230, 247, 255, 0.6);
   color:black;
+  box-shadow:0px 0px 10px black;
 }
 
 /* _____________________________________________________________________________________________ */

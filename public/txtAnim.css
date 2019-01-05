@@ -1,0 +1,88 @@
+.text {
+  width: auto;
+ height: 50px;
+ text-align:center;
+font-size:48px;
+
+}
+.textToWord{
+ width:100%;;
+ height:50px;
+margin-top:0px;
+}
+
+.word {
+ position: absolute;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0; 
+ right: 0;
+ width: 320px; 
+height:50px;
+ opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  /* APPS */
+/*   color: #8e44ad; */
+  font-family:"Allerta Stencil";
+text-shadow:0px 0px 10px white;
+ 
+}
+.green {
+    /* CODE */
+/*   color: #215732;  */
+  font-family:'Orbitron';
+  text-shadow:0px 0px 10px #215732;
+}
+
+.midnight {
+    /* ALGORITHMS */
+/*   color: #0098b3; */
+ font-family:"Allerta Stencil";
+text-shadow:0px 0px 10px #0098b3;
+
+}
+.pomegranate {
+    /* DESIGN */
+/*   color: #ffff00; */
+  font-family:"Allert Stencil";
+  text-shadow:0px 0px 10px #ffff00;
+}
+.belize {
+
+    /* Games*/
+/*   color: #2980b9; */
+font-family:"Allerta Stencil";
+text-shadow:0px 0px 10px orange;
+}
+@media screen and (max-width:800px){
+.text {
+font-size:30px;
+height:30px;
+}
+}
+
+
+
